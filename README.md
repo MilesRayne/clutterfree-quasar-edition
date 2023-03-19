@@ -5,7 +5,8 @@
 # Important
 
 This is a work-in-progress project of mine.
-I'm trying to integrate Quasar with Vue 3 and Vite into the existing Clutterfree for Anilist codebase.
+I'm trying to integrate Quasar with Vue 3 and Vite into the existing [Clutterfree for Anilist](https://github.com/MilesRayne/clutterfree-for-anilist) codebase.
+For the time being, I **heavily recommend** checking out the [tested, working version](https://github.com/MilesRayne/clutterfree-for-anilist) instead of this one.
 
 ## Features
 
