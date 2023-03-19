@@ -1,41 +1,21 @@
-# AniList Plugin (anilist-quasar-project)
+# Clutterfree for Anilist
 
-A Quasar Project
+[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/MilesRayne/clutterfree-for-anilist/main/LICENSE)[![Chat / Support](https://img.shields.io/badge/Support-Discord-7289DA.svg?style=flat-square)](https://discord.gg/M2kryqC3C3)
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
-```
+## Important
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+This is a work-in-progress project of mine.
+I'm trying to integrate Quasar with Vue 3 and Vite into the existing Clutterfree for Anilist codebase.
 
+## Features
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+- Groups together sequential activities by the same user into a single card that can be expanded when needed.
+- Customizable settings let the user choose whether to group by user or only group activity likes, which are more spammable.
 
+## Installation
 
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
+[**Firefox Add-ons**](https://addons.mozilla.org/en-US/firefox/addon/clutterfree-for-anilist/)
 
+## Planned Changes
 
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+- Further decluttering of other AniList tabs.
