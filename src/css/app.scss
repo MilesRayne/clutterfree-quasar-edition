@@ -1,0 +1,13 @@
+// app global css in SCSS form
+
+.q-layout__shadow:after {
+  box-shadow: none !important;
+}
+
+.q-layout__section--marginal {
+  transition: background 0.8s ease, color 0.2s;
+}
+
+.cf-hidden {
+  display: none;
+}
