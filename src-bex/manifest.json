@@ -1,5 +1,10 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{45748bd3-6236-480c-a6eb-26757edd9266}"
+    }
+  },
 
   "icons": {
     "16": "icons/icon-16x16.png",
@@ -7,11 +12,10 @@
     "128": "icons/icon-128x128.png"
   },
 
-  "permissions": ["storage", "tabs", "activeTab"],
-  "host_permissions": ["*://anilist.co/*"],
+  "permissions": ["storage", "tabs", "activeTab", "*://anilist.co/*"],
 
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"]
   },
 
   "content_scripts": [
@@ -22,16 +26,12 @@
     }
   ],
 
-  "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';"
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+
+  "options_ui": {
+    "page": "www/index.html#options",
+    "open_in_tab": true
   },
 
-  "options_page": "www/index.html#options",
-
-  "web_accessible_resources": [
-    {
-      "resources": ["*"],
-      "matches": ["*://anilist.co/*"]
-    }
-  ]
+  "web_accessible_resources": ["*://anilist.co/*"]
 }
